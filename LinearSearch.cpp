@@ -1,3 +1,6 @@
+//Linear Search Algorithm in C++.
+//Iterative method
+
 #include <iostream>
 using namespace std;
 
