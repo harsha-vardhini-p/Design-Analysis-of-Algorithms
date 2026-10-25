@@ -28,7 +28,6 @@ int main() {
         }
     }
 
-    // Try each vertex k as an intermediate vertex.
     for (int k = 0; k < n; k++) {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
@@ -42,7 +41,6 @@ int main() {
         }
     }
 
-    // A negative diagonal value indicates a negative-weight cycle.
     for (int i = 0; i < n; i++) {
         if (dist[i][i] < 0) {
             cout << "\nGraph contains a negative-weight cycle.\n";
